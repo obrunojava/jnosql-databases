@@ -54,7 +54,7 @@ public class ArangoDBBuilderSync implements ArangoDBBuilder {
 
     @Override
     public void chunksize(int chunksize) {
-        arangoDB.chunksize(chunksize);
+        arangoDB.chunkSize(chunksize);
     }
 
     @Override
@@ -64,7 +64,7 @@ public class ArangoDBBuilderSync implements ArangoDBBuilder {
 
     @Override
     public void useProtocol(Protocol protocol) {
-        arangoDB.useProtocol(protocol);
+        arangoDB.protocol(protocol);
     }
 
     @Override

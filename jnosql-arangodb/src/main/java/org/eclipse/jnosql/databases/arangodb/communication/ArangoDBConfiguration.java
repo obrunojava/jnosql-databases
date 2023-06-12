@@ -98,7 +98,7 @@ public abstract class ArangoDBConfiguration {
      * @param chuckSize the cucksize
      */
     public void setChuckSize(int chuckSize) {
-        builder.chunksize(chuckSize);
+        builder.chunkSize(chuckSize);
     }
 
     /**
